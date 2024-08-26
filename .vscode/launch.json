@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SDPadApplication<sdpad>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "github.evertonbrunosds.sdpad.SDPadApplication",
+            "projectName": "sdpad",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

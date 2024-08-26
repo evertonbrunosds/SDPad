@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: SDPad
+  datasource:
+    url: <jdbc:data_base_manager://ip_number:port_number/data_base_name>
+    username: <username>
+    password: <password>
+    driver-class-name: <artefact_id>
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        '[format_sql]': true
+        '[default_schema]': public
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1

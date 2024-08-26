@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SdpadApplication {
+public class SDPadApplication {
 
 	public static void main(final String[] args) {
-		SpringApplication.run(SdpadApplication.class, args);
+		SpringApplication.run(SDPadApplication.class, args);
 	}
 
 }
